@@ -42,14 +42,12 @@
                         <div class="auth-full-page-content d-flex p-sm-5 p-4">
                             <div class="w-100">
                                 <div class="d-flex flex-column h-100">
-                                    <div class="mb-4 mb-md-5 text-center">
-                                        <a href="#" class="d-block auth-logo">
-                                            <img src="{{ asset('images/logo-sm.svg') }}" alt="" height="28"> <span class="logo-txt">Minia</span>
-                                        </a>
-                                    </div>
                                     <div class="auth-content my-auto">
+                                        <div class="mt-5 mb-3 text-center">
+                                            <img src="{{ asset('images/uin.png') }}" alt="" height="60">
+                                        </div>
                                         <div class="text-center">
-                                            <h5 class="mb-0">Daftar Akun</h5>
+                                            <h5 class="mb-0">Selamat Datang</h5>
                                             <p class="text-muted mt-2">Sistem Informasi Mandiri FTIK UIN Sunan Kudus</p>
                                         </div>
                                         

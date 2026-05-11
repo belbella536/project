@@ -73,7 +73,7 @@ class AuthController extends Controller
             $request->session()->regenerate();
             
             // Redirect ke halaman yang dituju sebelum login, atau default ke '/' (misalnya halaman welcome)
-            return redirect()->intended('/'); 
+            return redirect()->intended('/dashboard'); 
         }
 
         // 5. Jika gagal, kembalikan ke form login dengan pesan error
